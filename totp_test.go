@@ -33,5 +33,4 @@ func TestTOTP(t *testing.T) {
 		time.Sleep(time.Second)
 		t.Log("round", i, " ", ts, " test ok")
 	}
-
 }
